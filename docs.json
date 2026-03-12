@@ -11,7 +11,95 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guia da clínica",
+        "tab": "Agenda",
+        "groups": [
+          {
+            "group": "Básico",
+            "pages": [
+              "agenda/agendar-um-paciente"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Prontuário",
+        "groups": [
+          {
+            "group": "Atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Financeiro",
+        "groups": [
+          {
+            "group": "Atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Automações",
+        "groups": [
+          {
+            "group": "Para o atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Automações",
+        "groups": [
+          {
+            "group": "Para o atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Indicações de Pacientes",
+        "groups": [
+          {
+            "group": "Atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Controle de Estoque",
+        "groups": [
+          {
+            "group": "Atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Ajustes",
+        "groups": [
+          {
+            "group": "Atendimento",
+            "pages": [
+              "atendimento"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Como faz?",
         "groups": [
           {
             "group": "Começando",
@@ -40,40 +128,35 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Suporte 24h para clientes",
+          "href": "https://wa.me/554688281922",
+          "icon": "whatsapp"
         }
       ]
     }
+  },
+  "languages": [
+    {
+      "language": "pt-BR"
+    }
+  ],
+  "icons": {
+    "library": "fontawesome"
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Acesse o sistema",
+      "href": "https://clinica.work"
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view"
-    ]
+    "options": []
   },
   "footer": {
     "socials": {
