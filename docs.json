@@ -132,13 +132,13 @@
           }
         ]
       }
+    ],
+    "languages": [
+      {
+        "language": "pt-BR"
+      }
     ]
   },
-  "languages": [
-    {
-      "language": "pt-BR"
-    }
-  ],
   "icons": {
     "library": "fontawesome"
   },
