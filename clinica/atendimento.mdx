@@ -1,0 +1,79 @@
+---
+title: "Atendimento"
+description: "Como o médico usa o ClínicaWork para conduzir um atendimento completo, do acesso ao prontuário até a prescrição."
+---
+
+## Para que serve esta área
+
+A área de **Atendimento** é onde o médico realiza o atendimento do paciente: registra evolução, solicita exames, usa modelos de anotações e emite prescrições digitais.
+
+[imagem: atendimento-visao-geral]
+
+## Principais telas ligadas ao Atendimento
+
+- **Lista de atendimentos / entrada no atendimento**  
+  - Acessada pelo menu **Atendimento** ou a partir da agenda.  
+  - Mostra os pacientes que estão sendo atendidos ou que serão atendidos em seguida.  
+  - Rotas principais relacionadas:  
+    - `$clinicaSlug/$proHash/atendimento`  
+
+[imagem: atendimento-lista]
+
+- **Tela de consulta e prontuário em atendimento**  
+  - Espaço para registrar queixa, exame físico, hipóteses diagnósticas, conduta e orientações.  
+  - Permite anexar arquivos, visualizar histórico e usar modelos de texto.  
+
+[imagem: prontuario-em-atendimento]
+
+- **Modelos de atendimento**  
+  - Textos prontos que aceleram o preenchimento do prontuário (por exemplo, modelos de evoluções frequentes).  
+
+[imagem: atendimento-modelos]
+
+- **Exames e documentos vinculados ao atendimento**  
+  - Telas para solicitar e revisar exames ligados ao atendimento atual.  
+
+[imagem: atendimento-exames]
+
+## Fluxo típico de uso para o médico
+
+### 1. Entrar no atendimento
+
+1. Abra a **Agenda** ou vá direto no menu **Atendimento**.  
+2. Clique no paciente que está sendo atendido agora.  
+3. O sistema abre o prontuário já focado no atendimento atual.  
+
+[imagem: atendimento-entrada-pelo-menu]
+
+### 2. Registrar a consulta no prontuário
+
+1. Na tela de atendimento, registre:  
+   - Queixa principal e motivo da consulta.  
+   - Histórico e exame físico (quando aplicável).  
+   - Conduta, orientações e plano de seguimento.  
+2. Use **modelos de atendimento** quando fizer sentido, para acelerar o preenchimento.  
+3. Se necessário, anexe laudos, imagens ou outros documentos relevantes.  
+
+[imagem: prontuario-preenchendo-consulta]
+
+### 3. Solicitar exames e emitir prescrição
+
+1. A partir da mesma tela, acesse a parte de **exames** para solicitar o que precisar.  
+2. Gere a **prescrição digital** com medicamentos, orientações e observações para o paciente.  
+3. Entregue a prescrição de forma impressa ou digital, conforme o fluxo da clínica.  
+
+[imagem: prescricao-digital-em-atendimento]
+
+### 4. Finalizar e seguir para o próximo paciente
+
+1. Salve o atendimento e feche o prontuário.  
+2. Volte para a agenda ou lista de atendimentos para chamar o próximo paciente.  
+
+[imagem-aqui]
+
+## Dicas práticas
+
+- Use modelos para evoluções repetitivas, principalmente em seguimentos de longo prazo.  
+- Registre orientações importantes no prontuário sempre que explicar algo relevante ao paciente.  
+- Se mais de um profissional atende o mesmo paciente, o histórico consolidado ajuda na continuidade do cuidado.  
+
